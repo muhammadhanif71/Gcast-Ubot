@@ -10,7 +10,7 @@
 
 
 # ========================×========================
-#            Jangan Hapus Credit Ngentod
+#            Jangan Hapus Credit
 # ========================×========================
 
 from fipper.types import *
@@ -39,7 +39,7 @@ async def inline_result(_, inline_query):
     rslts=[
         (
             InlineQueryResultArticle(
-                title="Ayiin Ubot!",
+                title="Gcast Ubot!",
                 reply_markup=InlineKeyboardMarkup(
                     yins.HelpXd(0, CMD_HELP, "xd")
                 ),
@@ -60,7 +60,7 @@ async def inline_result(_, iq):
     rslts=[
         (
             InlineQueryResultArticle(
-                title="Paste Ayiin Ubot!",
+                title="Paste Gcast Ubot!",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
