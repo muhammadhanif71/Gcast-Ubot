@@ -10,7 +10,7 @@
 
 
 # ========================×========================
-#            Jangan Hapus Credit Ngentod
+#            Jangan Hapus Credit
 # ========================×========================
 
 import time
@@ -32,7 +32,7 @@ async def aliveme(client: Client, message: Message):
     chat_id = message.chat.id
     user = await client.get_me()
     output = (
-        f"**Tʜᴇ [Ayiin Ubot](https://github.com/AyiinXd/AyiinUbot)**\n\n"
+        f"**Tʜᴇ [Gcast Ubot](https://t.me/itachipremium)**\n\n"
         f"**{var.ALIVE_TEXT}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"≽ **Bᴀsᴇ Oɴ :** •[{adB.name}]•\n"
@@ -40,8 +40,8 @@ async def aliveme(client: Client, message: Message):
         f"≽ **Mᴏᴅᴜʟᴇs :** `{len(CMD_HELP)} Modules` \n"
         f"≽ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}`\n"
         f"≽ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{fip_ver}`\n"
-        f"≽ **Pʏ-Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{__version__}`\n"
-        f"≽ **Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{ayiin_ver}` [{HOSTED_ON}]\n"
+        f"≽ **Vᴇʀsɪᴏɴ :** `{__version__}`\n"
+        f"≽ **𝖦𝖼𝖺𝗌𝗍 Vᴇʀsɪᴏɴ :** `{ayiin_ver}` [{HOSTED_ON}]\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
     await message.delete()
