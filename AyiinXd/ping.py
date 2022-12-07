@@ -38,9 +38,9 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xnxx.edit(
-        f"<b>✧ Aʏɪɪɴ Uʙᴏᴛ ✧</b>\n\n"
-        f"<b>✧ Pɪɴɢᴇʀ :</b> <code>{duration}ms</code>\n"
-        f"<b>✧ Uᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>"
+        f"<b>✧ 𝖦𝖼𝖺𝗌𝗍 𝖴𝖻𝗈𝗍 ✧</b>\n\n"
+        f"<b>✧ 𝖯𝗂𝗇𝗀 :</b> <code>{duration}ms</code>\n"
+        f"<b>✧ 𝖴𝗉𝗍𝗂𝗆𝖾 :</b> <code>{uptime}</code>"
     )
 
 
