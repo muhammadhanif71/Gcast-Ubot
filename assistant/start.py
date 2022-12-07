@@ -10,7 +10,7 @@
 
 
 # ========================×========================
-#            Jangan Hapus Credit Ngentod
+#            Jangan Hapus Credit
 # ========================×========================
 
 from fipper import filters
@@ -27,10 +27,9 @@ from pyAyiin.assistant import callback
 START = """
 ❏ Haii {}
 ╭╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
-├▹ {} Adalah Ubot Pyrogram Telegram
-├▹ Yang Dibuat Untuk Bersenang-Senang
+├▹ {} Adalah Ubot Gcast
+├▹ Salah satu bot yang bisa gcast ke grup
 ├▹ Dan Memiliki Modul Yg Bisa Anda Gunakan
-├▹ Bisa Membuat Ubot Sampai Dengan 10 String 
 ╰╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
 ❏ © py-Ayiin v{}
 """
@@ -44,7 +43,7 @@ async def start(bot, msg):
     buttons = [
         [
             InlineKeyboardButton(
-                "☞︎︎︎ Cʀᴇᴀᴛᴇ Aʏɪɪɴ Uʙᴏᴛ ☜︎︎︎", callback_data="multi_client")
+                "☞︎︎︎ Cʀᴇᴀᴛᴇ 𝖦𝖼𝖺𝗌𝗍 Uʙᴏᴛ ☜︎︎︎", callback_data="multi_client")
         ],
         [
             InlineKeyboardButton(
