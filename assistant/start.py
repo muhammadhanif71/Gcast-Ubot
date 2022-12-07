@@ -31,7 +31,7 @@ START = """
 ├▹ Salah satu bot yang bisa gcast ke grup
 ├▹ Dan Memiliki Modul Yg Bisa Anda Gunakan
 ╰╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
-❏ © py-Ayiin v{}
+❏ © ubot v{}
 """
 
 
