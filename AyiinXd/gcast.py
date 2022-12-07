@@ -45,6 +45,7 @@ GCAST_BLACKLIST = [
     -1001662510083,  # MutualanDestra
     -1001347414136,  # ArunaMutualan
     -1001572486389,  # PluviaMusicGroup
+    -1001601365018,  ,# stufsupport
 ]
 
 
