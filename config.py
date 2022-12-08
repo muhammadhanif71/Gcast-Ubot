@@ -10,7 +10,7 @@ class Var:
     API_ID = int(getenv("API_ID", ""))
     ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/557efb9e89c45d02e9913.jpg")
     ALIVE_TEXT = getenv("ALIVE_TEXT", "Hey, Saya Gcast Ubot Dibuat dengan basis pyrogram versi terbaru")
-    BOT_TOKEN = getenv("BOT_TOKEN", "")
+    BOT_TOKEN = getenv("BOT_TOKEN", "5785373194:AAH0hJfmQD5bIAYPEWcdqZWv6QbXsq_mKZ8")
     BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
     if not BLACKLIST_CHAT:
         BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001601365018]
