@@ -12,7 +12,7 @@
   <img src="https://telegra.ph/file/557efb9e89c45d02e9913.jpg">
 </p>
 
-👩‍💻 AyiinUbot adalah Pyrogram Userbot Telegram modular yang berjalan di Python3 dengan database MongoDB.
+👩‍💻 Gcast-Ubot adalah Pyrogram Userbot Telegram modular yang berjalan di Python3 dengan database MongoDB.
 
 
 # Disclaimer
