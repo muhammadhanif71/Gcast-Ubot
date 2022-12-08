@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <br>
 
 
-<p><a href="https://ayiin.vercel.app"><img src="https://img.shields.io/badge/AYIIN-UBOT-aqua?style=plastic"width="200" /></a></p>
+<p><a href="https://ayiin.vercel.app"><img src="https://img.shields.io/badge/Gcast-Ubot-aqua?style=plastic"width="200" /></a></p>
 
 </details>
 
