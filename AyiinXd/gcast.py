@@ -152,9 +152,9 @@ CMD_HELP.update(
     {"gcast": (
         "gcast",
         {
-            "fgcast <reply>": "Forward Broadcast messages in group chats.",
-            "gcast <reply>": "Broadcast messages in group chats.",
-            "gucast <reply>": "Broadcast messages in user.",
+            "fgcast <reply>": "Reply pesan untuk gcast ke grup.",
+            "gcast <reply>": "Gcast ke grup.",
+            "gucast <reply>": "Broadcast pesan ke Pc/Pm.",
         }
     )
     }
