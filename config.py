@@ -8,7 +8,7 @@ load_dotenv(".env")
 class Var:
     API_HASH = getenv("API_HASH")
     API_ID = int(getenv("API_ID", ""))
-    ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
+    ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/557efb9e89c45d02e9913.jpg")
     ALIVE_TEXT = getenv("ALIVE_TEXT", "Hey, Saya Gcast Ubot Dibuat dengan basis pyrogram versi terbaru")
     BOT_TOKEN = getenv("BOT_TOKEN", "")
     BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
@@ -19,7 +19,7 @@ class Var:
     DB_URL = getenv("DATABASE_URL", "")
     HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-    MONGO_URI = getenv("MONGO_URI", None)
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Stuf-Userbot:Stuf-Userbot@stuf-userbot.eugqicq.mongodb.net/?retryWrites=true&w=majority")
     NO_LOAD = [int(x) for x in getenv("NO_LOAD", "").split()]
     REM_BG_API_KEY = getenv("REM_BG_API_KEY", "WEnHwQnst3E2HzjGgwmy4UpB")
     STRING_1 = getenv("STRING_1", "")
