@@ -66,7 +66,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </details>
 
 <details>
-<summary><b>🔗 Deploy AyiinUbot</b></summary>
+<summary><b>🔗 Deploy GcastUbot</b></summary>
 <br>
 
 
@@ -77,7 +77,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 # Updates & Support
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AyiinChat](https://t.me/AyiinChat) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AyiinUbot.
+Follow Channel [@stufchannel](https://t.me/stufsupport) untuk info Update bot dan Gabung Group [@AyiinChat](https://t.me/stufsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AyiinUbot.
 
 
 # © Credits
