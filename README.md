@@ -59,10 +59,11 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S AyiinUbot`
+ • `screen -S Gcast-Ubot`
 
  • `python3 -m pyAyiin`
 
+ • `bash start`
 </details>
 
 <details>
@@ -77,7 +78,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 # Updates & Support
 
-Follow Channel [@stufchannel](https://t.me/stufsupport) untuk info Update bot dan Gabung Group [@AyiinChat](https://t.me/stufsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AyiinUbot.
+Follow Channel [@stufchannel](https://t.me/stufsupport) untuk info Update bot dan Gabung Group [@stufsupport](https://t.me/stufsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Gcast-Ubot.
 
 
 # © Credits
