@@ -45,9 +45,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/AyiinXd/AyiinUbot`
+ • `git clone https://github.com/muhammadhanif71/Gcast-Ubot`
 
- • `cd AyiinUbot`
+ • `cd Gcast-Ubot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -67,7 +67,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </details>
 
 <details>
-<summary><b>🔗 Deploy GcastUbot</b></summary>
+<summary><b>🔗 Deploy Gcast-Ubot</b></summary>
 <br>
 
 
