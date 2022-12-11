@@ -10,7 +10,7 @@
 
 
 # ========================×========================
-#            Jangan Hapus Credit Ngentod
+#            Jangan Hapus Credit
 # ========================×========================
 
 import os
@@ -56,7 +56,7 @@ async def updater(client, msg):
             return await eod(msg, f"<b>ERROR:</b> <code>{e}</code>")
     else:
         await xx.edit(
-            f'<strong>Bot Lu Udah Versi Terbaru</strong><code> Dengan </code><strong><a href="https://github.com/AyiinXd/AyiinUbot/tree/{branch}">[{branch}]</a></strong>',
+            f'<strong>Bot Lu Udah Versi Terbaru</strong><code> Dengan </code><strong><a href="https://github.com/muhammadhanif71/Gcast-Ubot/tree/{branch}">[{branch}]</a></strong>',
             parse_mode=ParseMode.HTML,
             disable_web_page_preview=True,
         )
