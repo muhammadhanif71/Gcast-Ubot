@@ -20,7 +20,7 @@ from . import *
 
 
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="AyiinUbot")
+r = telegraph.create_account(short_name="Gcast-Ubot")
 auth_url = r["auth_url"]
 
 
