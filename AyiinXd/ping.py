@@ -26,22 +26,25 @@ from pyAyiin.decorator import Ayiin
 from . import *
 
 
-@Ayiin(["ping", "yins"])
+@Ayiin(["ping"])
 async def pingme(client: Client, message: Message):
-    start = datetime.now()
-    uptime = await yins.get_readable_time((time.time() - StartTime))
-    xnxx = await message.reply("<b>✧</b>")
-    await xnxx.edit("<b>✧✧</b>")
-    await xnxx.edit("<b>✧✧✧</b>")
-    await xnxx.edit("<b>✧✧✧✧</b>")
-    await xnxx.edit("<b>✧✧✧✧✧</b>")
-    end = datetime.now()
-    duration = (end - start).microseconds / 1000
-    await xnxx.edit(
-        f"<b>✧ 𝖦𝖼𝖺𝗌𝗍 𝖴𝖻𝗈𝗍 ✧</b>\n\n"
-        f"<b>✧ 𝖯𝗂𝗇𝗀 :</b> <code>{duration}ms</code>\n"
-        f"<b>✧ 𝖴𝗉𝗍𝗂𝗆𝖾 :</b> <code>{uptime}</code>"
-    )
+    if tgbot:
+        try:
+            xx = await message.reply("<b>✧</b>")
+            await xx.edit("<b>✧✧</b>")
+            await xx.edit("<b>✧✧✧</b>")
+            await xx.edit("<b>✧✧✧✧</b>")
+            await xx.edit("<b>✧✧✧✧✧</b>")
+            tgbot.me = await tgbot.get_me()
+            results = await client.get_inline_bot_results(tgbot.me.username, f"ping")
+            await message.reply_inline_bot_result(
+                results.query_id,
+                results.results[0].id,
+                reply_to_message_id=yins.ReplyCheck(message),
+            )
+            await xx.delete()
+        except BaseException as e:
+            await eod(xx, f"<b>ERROR:</b> <code>{e}</code>")
 
 
 CMD_HELP.update(
